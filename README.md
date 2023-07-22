@@ -26,3 +26,22 @@ Integración con Diferentes Fuentes de Datos: PySpark ofrece conectores para lee
 Machine Learning y Procesamiento de Gráficos: Spark también proporciona bibliotecas y módulos para realizar tareas de machine learning y procesamiento de gráficos de manera distribuida.
 
 PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos que exceden la capacidad de una sola máquina. Al aprovechar la capacidad de procesamiento distribuido de Spark, PySpark permite realizar análisis de big data y procesamiento de datos a gran escala de manera eficiente y efectiva.
+
+
+
+
+
+## Kaggle
+### Pagina web donde he cogido los datos, donde contamos con mas de 20 millones de registros.
+
+
+
+# Empezamos con el análisis, para ello, importamos las librerias necesarias para poder ejecutar el codigo:
+
+
+
+      from pyspark.sql import SparkSession
+      from pyspark.sql.types import StructType, StructField, IntegerType, StringType
+      import numpy as np
+      import time
+      from pyspark.sql.functions import col
