@@ -86,11 +86,11 @@ Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el
 ### :pushpin: Codeamos lo siguiente para ver los productos que se han llegado a meter en el carrito de la compra, por su (product_id):
 
       
-```python
+```
 \df.select(["product_id"]).filter("event_type ='cart'").show()
 \in_cart = df.select(["product_id"]).filter("event_type ='cart'").count()
 \print(in_cart)
-\```
+```
 
 
 ![image](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/0b8f2609-7dc3-464d-bf66-21e62c2d0767)
