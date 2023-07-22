@@ -31,14 +31,17 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 
-# Kaggle - Página web donde he cogido los datos para su analisis. 
-[DATASET:](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop)
+# La página web donde he cogido los datos para su analisis está en el siguiente enlace, donde te llevará directo.
 
 
 
+[DATASET](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop)
 
 
-# Empezamos con el análisis, para ello, importamos las librerias necesarias para poder ejecutar el codigo:
+
+# Empezamos con el análisis. (:heavy_exclamation_mark:)
+
+## Para ello, importamos las librerias necesarias para poder ejecutar el codigo:
 
 
 
