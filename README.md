@@ -59,4 +59,22 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 
-Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el tipo de dato que son y por ultimo si tienes tiene nulos o no. 
+### Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el tipo de dato que son y por ultimo si tienes tiene nulos o no. 
+
+
+
+### Usamos .select para ver que es lo que contiene los event_type y utilizamos .distinct para ver solamente los únicos. 
+
+
+![Captura de pantalla 2023-07-22 a las 22 41 40](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/c191216d-31fc-481e-983b-25965eb3ebcb)
+
+
+
+
+
+
+
+
+
+
+
