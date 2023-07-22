@@ -98,3 +98,16 @@ Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el
 
 
 Hay mas de 5 millones de productos que fueron seleccionados y enviados a el carro para su compra.
+
+### Hacemos la misma operación para ver que productos al final no fueron comprados y fueron retirados del carrito de la compra. Codeamos lo siguiente.
+
+
+```python
+\removed = df.select(["product_id"]).filter("event_type ='remove_from_cart'").count()
+\print(removed)
+```
+
+![image](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/47f97403-de58-49f5-9dfd-224857341a05)
+
+Nos da la cantidad de casi 4 millones de productos que fueron eliminados del carrito, esta vez solamente he sacado la cantidad, sin ver los product_id
+
