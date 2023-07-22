@@ -152,6 +152,13 @@ Y nos da el siguiente resultado:
 
 
 
+# SQL CON PYSPARK
+
+### :pushpin: Random queries:
+
+
+![image](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/b550a7ab-2f6c-4200-999d-64ea7f9b577e)
+
 
 
 
