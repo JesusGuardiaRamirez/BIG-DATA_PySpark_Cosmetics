@@ -53,7 +53,7 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 :point_right: Aparecen mas de 20 millones de registros, (BigData).
-Solamente desde el mes de Octubre del 2019 a Enero de 2020.
+:point_right: Los archivos CSV, son desde el mes de Octubre del 2019 a Enero de 2020. (5 en total)
 
 ![Captura de pantalla 2023-07-22 a las 21 49 20](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/70088877-62db-4684-b8f5-48da390e597d)
 
