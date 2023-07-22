@@ -134,6 +134,24 @@ Nos da el siguiente resultado:
 Mas de 5.5 millones de productos fueron seleccionado conjuntamente con el product_id=5850281
 
 
+### :pushpin: ¿Cuántos productos distintos fueron cogidos con el product_id=5850281 ??
+
+Para ver el numero de productos que fueron escogidos con este mismo product_id pero distintos, codeamos lo siguiente:
+
+```python
+\products = products.select("product_id").distinct()
+\products.select("product_id").count()
+```
+
+Y nos da el siguiente resultado:
+
+![image](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/30c5822f-691c-4411-9bd1-a5a6c0d05254)
+
+
+46.156 productos diferentes se han vendido con el producto ID: 5850281 - Donde se podria utilizar este dato para hacer marketing para la empresa.
+
+
+
 
 
 
