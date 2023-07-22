@@ -134,7 +134,7 @@ Nos da el siguiente resultado:
 Mas de 5.5 millones de productos fueron seleccionado conjuntamente con el product_id=5850281
 
 
-### :pushpin: ¿Cuántos productos distintos fueron cogidos con el product_id=5850281 ??
+### :pushpin: ¿Cuántos productos distintos fueron cogidos con el product_id=5850281 ?
 
 Para ver el numero de productos que fueron escogidos con este mismo product_id pero distintos, codeamos lo siguiente:
 
@@ -149,6 +149,41 @@ Y nos da el siguiente resultado:
 
 
 46.156 productos diferentes se han vendido con el producto ID: 5850281 - Donde se podria utilizar este dato para hacer marketing para la empresa.
+
+
+### :pushpin: ¿ Cuántos productos se han comprado de una marca determinada ? Vemos las marcas del resutlado anterior y decidimos mirar "riche"
+
+      Revisamos si la DataFrame no esta vacia
+      Recopilar el resultado en una lista de Python.
+      Imprimimos los resultados.
+
+
+```python
+\ filtered_df = df.filter((col('brand') == 'riche') & (col('event_type') == 'cart'))
+
+\if filtered_df.count() > 0:
+\    lines = filtered_df.groupBy('product_id').count()
+
+
+\    result = lines.collect()
+
+
+\    for row in result:
+\        print(row)
+
+\else:
+\    print("No data found for the given conditions.")
+
+
+\spark.stop()
+```
+
+
+
+Y nos da el resultado siguiente, donde vemos el producto en si con el numero de veces que se ha llegadoa a comprar de la marca Riche.
+
+![image](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/2d10815f-bcbb-4e67-997d-4608f607666e)
+
 
 
 
