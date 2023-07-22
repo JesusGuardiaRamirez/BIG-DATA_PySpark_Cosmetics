@@ -93,4 +93,5 @@ Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el
 
 
 
+![image](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/0b8f2609-7dc3-464d-bf66-21e62c2d0767)
 
