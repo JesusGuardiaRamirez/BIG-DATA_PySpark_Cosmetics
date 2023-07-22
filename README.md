@@ -39,19 +39,15 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 
-# Empezamos con el análisis. (:heavy_exclamation_mark:)
+# Empezamos con el análisis. :heavy_exclamation_mark:
 
-## Para ello, importamos las librerias necesarias para poder ejecutar el codigo:
-
-
+### Para ello, importamos las librerias necesarias para poder ejecutar el codigo:
 
       from pyspark.sql import SparkSession
       from pyspark.sql.types import StructType, StructField, IntegerType, StringType
       import numpy as np
       import time
       from pyspark.sql.functions import col
-
-
 
 
 ![Captura de pantalla 2023-07-22 a las 21 54 50](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/301f2d24-2c0c-4843-ac0b-f57e9fe2bf50)
