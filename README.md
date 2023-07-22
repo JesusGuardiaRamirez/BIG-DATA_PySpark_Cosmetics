@@ -39,7 +39,7 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 
-# Empezamos con el análisis. :heavy_exclamation_mark:
+# :pushpin: Empezamos con el análisis. :heavy_exclamation_mark:
 
 ### Para ello, importamos las librerias necesarias para poder ejecutar el codigo:
 
