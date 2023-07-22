@@ -45,3 +45,17 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
       import numpy as np
       import time
       from pyspark.sql.functions import col
+
+
+
+
+![Captura de pantalla 2023-07-22 a las 21 48 28](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/0ff1a580-9cad-4b70-b21c-a5a88ddb32d2)
+
+
+
+
+![Captura de pantalla 2023-07-22 a las 21 49 20](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/70088877-62db-4684-b8f5-48da390e597d)
+
+
+
+Aparece en primer lugar el nombre de las columnas, en segundo lugar el tipo de dato que son y por ultimo si tienes tiene nulos o no
