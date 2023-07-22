@@ -59,7 +59,7 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 
-### Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el tipo de dato que son y por ultimo si tienes tiene nulos o no. 
+Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el tipo de dato que son y por ultimo si tienes tiene nulos o no. 
 
 
 
