@@ -111,3 +111,38 @@ Hay mas de 5 millones de productos que fueron seleccionados y enviados a el carr
 
 Nos da la cantidad de casi 4 millones de productos que fueron eliminados del carrito, esta vez solamente he sacado la cantidad, sin ver los product_id
 
+
+### :pushpin:  Quiero ver cuantos productos fueron acompañados para ser comprados con el primer product_id de la lista anterior, para ello lo sacamos por pantalla con el siguiente codigo:
+
+```python
+\df.select(['product_id']).filter("event_type='cart'").first()
+```
+
+
+```python
+\sesions=df.select(['user_session']).filter("event_type='cart' AND product_id=5850281").distinct()
+\products = df.select(['product_id']).filter("event_type='cart' AND product_id<>5850281").filter(df["user_session"].isin(sesions["user_session"]))
+\products.select("product_id").count()
+```
+
+
+Nos da el siguiente resultado:
+
+![image](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/e62634aa-c483-47da-a351-54d7352d9340)
+
+
+Mas de 5.5 millones de productos fueron seleccionado conjuntamente con el product_id=5850281
+
+
+
+
+
+
+
+
+
+
+
+
+
+
