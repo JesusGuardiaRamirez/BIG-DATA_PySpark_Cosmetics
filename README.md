@@ -52,10 +52,10 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 ![Captura de pantalla 2023-07-22 a las 21 54 50](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/301f2d24-2c0c-4843-ac0b-f57e9fe2bf50)
 
 
-point_right: Aparecen mas de 20 millones de registros, (BigData)
+:point_right: Aparecen mas de 20 millones de registros, (BigData)
 
 ![Captura de pantalla 2023-07-22 a las 21 49 20](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/70088877-62db-4684-b8f5-48da390e597d)
 
 
 
-point_right: Aparece en primer lugar el nombre de las columnas, en segundo lugar el tipo de dato que son y por ultimo si tienes tiene nulos o no
+:point_right: Aparece en primer lugar el nombre de las columnas, en segundo lugar el tipo de dato que son y por ultimo si tienes tiene nulos o no
