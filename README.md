@@ -83,8 +83,12 @@ Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el
 ![Captura de pantalla 2023-07-22 a las 22 52 48](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/173a30f7-1323-42ae-ba3e-004565382da6)
 
 
+### :pushpin: Codeamos lo siguiente para ver los productos que se han llegado a meter en el carrito de la compra, por su (product_id):
 
 
+\df.select(["product_id"]).filter("event_type ='cart'").show()
+\in_cart = df.select(["product_id"]).filter("event_type ='cart'").count()
+\print(in_cart)
 
 
 
