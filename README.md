@@ -31,8 +31,9 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 
-## Kaggle
-### Pagina web donde he cogido los datos, donde contamos con mas de 20 millones de registros.
+### Kaggle - Es la pagina web donde he cogido los datos, donde contamos con mas de 20 millones de registros. 
+
+                  https://www.kaggle.com/
 
 
 
