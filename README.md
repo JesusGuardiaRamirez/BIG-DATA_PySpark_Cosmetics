@@ -49,7 +49,7 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 
 
-![Captura de pantalla 2023-07-22 a las 21 48 28](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/0ff1a580-9cad-4b70-b21c-a5a88ddb32d2)
+![Captura de pantalla 2023-07-22 a las 21 54 50](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/301f2d24-2c0c-4843-ac0b-f57e9fe2bf50)
 
 
 
