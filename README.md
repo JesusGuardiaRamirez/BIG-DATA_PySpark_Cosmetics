@@ -33,7 +33,7 @@ PySpark es especialmente útil cuando se trabaja con grandes conjuntos de datos 
 
 ### Kaggle - Es la pagina web donde he cogido los datos, donde contamos con mas de 20 millones de registros. 
 
-                  https://www.kaggle.com/
+[:point_right:](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop)
 
 
 
