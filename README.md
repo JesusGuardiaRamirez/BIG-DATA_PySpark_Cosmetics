@@ -63,12 +63,23 @@ Vemos que en primer lugar aparece el nombre de las columnas, en segundo lugar el
 
 
 
-### :pushpin: Usamos .select para ver que es lo que contiene los event_type y utilizamos .distinct para ver solamente los únicos. 
+### :pushpin: Usamos .select para ver que valores tiene la columna (event_type) y utilizamos .distinct para ver solamente los únicos. 
 
 
 ![Captura de pantalla 2023-07-22 a las 22 41 40](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/c191216d-31fc-481e-983b-25965eb3ebcb)
 
 
+      Purchase (Compra)
+      View (Visitas)
+      Cart (Añadido al carrito)     
+      Remove_from_cart (Quitado del carrito)
+
+
+
+### :pushpin: Hacemos lo mismo con la columna de (brand) para ver algunas de las marcas con las que vamos a trabajar, aunque solo enseña los 20 primeros.
+
+
+![Captura de pantalla 2023-07-22 a las 22 52 48](https://github.com/JesusGuardiaRamirez/SYL/assets/125477881/173a30f7-1323-42ae-ba3e-004565382da6)
 
 
 
